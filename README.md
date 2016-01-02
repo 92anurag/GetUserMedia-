@@ -10,8 +10,9 @@ Source from which this code is taken is :
 http://www.html5rocks.com/en/tutorials/getusermedia/intro/
 
 
-2nd step at understanding webrtc is get familiar with step 3 https://bitbucket.org/webrtc/codelab/src
-In this we will caller and callee on the smae web page . So we dont need any signalling . Step 3 is used to understand how RTCPeerConnection() api works .
+Next step at understanding webrtc is get familiar with step 3 of this https://bitbucket.org/webrtc/codelab/src.
+
+In this we have caller and reciever on the same web page . So we dont need any kind of signalling . Step 3 is used to understand how RTCPeerConnection() api works .
   a) First tap into localstream using getUserMedia . (this is what happens when we press start button)
   b) Now create a localRTCpeer object and add the stream to this object.
   c) Create a remoteRTCPeer object .
