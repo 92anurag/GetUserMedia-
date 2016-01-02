@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript' src="/javascripts/localPeerConnectionOnsamePage.js")
+  body
+    video(id="localvideo",autoplay,muted)
+    video(id="remotevideo",autoplay,muted)
+    button(id="startButton") Start
+    button(id="callButton") Call
+    button(id="hangupButton") Hang Up
